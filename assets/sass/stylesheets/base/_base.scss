@@ -33,13 +33,15 @@ a {
     text-decoration: underline;
   }
 }
-body{
-  background: red;
-  @include media-breakpoint-up(sm) {
-    background: blue;
+.h1{
+  color: $text-color;
+  &:hover{
+    color:red;
   }
-
+  @include media-breakpoint-up(sm) {
+    color: $brand-color;
+  }
   @include media-breakpoint-up(lg) {
-    background: #000;
+    color: $dark-grey;
   }
 }

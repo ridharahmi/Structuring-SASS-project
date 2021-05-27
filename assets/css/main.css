@@ -9592,14 +9592,16 @@ a {
     color: #222222;
     text-decoration: underline; }
 
-body {
-  background: red; }
+.h1 {
+  color: #222222; }
+  .h1:hover {
+    color: red; }
   @media (min-width: 576px) {
-    body {
-      background: blue; } }
+    .h1 {
+      color: #e50050; } }
   @media (min-width: 992px) {
-    body {
-      background: #000; } }
+    .h1 {
+      color: #444444; } }
 
 /**
  * Basic typography style for copy text

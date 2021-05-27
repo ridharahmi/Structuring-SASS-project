@@ -47,7 +47,7 @@
     </div>
 </nav>
 <div class="p-5">
-    <h1>This is Sass</h1>
+    <h1 class="h1">This is Sass</h1>
     <a class="btn btn-primary">Send Message</a>
 </div>
 
