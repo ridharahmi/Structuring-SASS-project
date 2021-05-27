@@ -1,0 +1,17 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass assets/sass/stylesheets/main.scss assets/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
